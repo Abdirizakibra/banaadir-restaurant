@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover delicious meals at Banaadir Restaurant in Mogadishu. Explore our menu and contact us on WhatsApp.">
+    <meta name="theme-color" content="#f8f6ef">
+    <title>Banaadir Restaurant | Mogadishu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="header">
+    <a href="#home" class="logo">BANAADIR<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Open navigation menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </button>
+    <nav class="navigation" id="navigation" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <a href="#menu" class="header-button">Explore Menu</a>
+</header>
+<main id="main-content">
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">WELCOME TO BANAADIR</p>
+            <h1>Good food.<br>Good mood.</h1>
+            <p class="hero-description">
+                Discover delicious meals, freshly prepared
+                and served with Somali hospitality.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="primary-button">View Our Menu</a>
+                <a href="#about" class="secondary-button">Our Story</a>
+            </div>
+            <p class="location-note">Mogadishu, Somalia</p>
+        </div>
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+                alt="A freshly prepared meal served at a restaurant"
+                fetchpriority="high"
+            >
+            <div class="image-label">
+                <span>FRESHLY PREPARED</span>
+                <strong>Made with care.</strong>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section" id="menu">
+        <div class="section-heading">
+            <p class="eyebrow">MADE FOR YOUR APPETITE</p>
+            <h2>Explore Our Menu</h2>
+            <p>Discover some of our favourite dishes.</p>
+        </div>
+        <div class="menu-grid">
+            <article class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=80"
+                    alt="Rice dish with vegetables"
+                    loading="lazy"
+                >
+                <div class="menu-card-content">
+                    <h3>Special Rice</h3>
+                    <p>Fragrant rice served with delicious accompaniments.</p>
+                    <span class="price">$5.00</span>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80"
+                    alt="Grilled meat served on a plate"
+                    loading="lazy"
+                >
+                <div class="menu-card-content">
+                    <h3>Grilled Meat</h3>
+                    <p>Tender, flavourful meat prepared to perfection.</p>
+                    <span class="price">$8.00</span>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
+                    alt="A freshly prepared pasta dish"
+                    loading="lazy"
+                >
+                <div class="menu-card-content">
+                    <h3>Special Pasta</h3>
+                    <p>A satisfying pasta dish made with fresh ingredients.</p>
+                    <span class="price">$6.00</span>
+                </div>
+            </article>
+        </div>
+        <p class="demo-note">
+            Demonstration menu: all dishes and prices are fictional.
+        </p>
+    </section>
+    <section class="about-section" id="about">
+        <div>
+            <p class="eyebrow">OUR STORY</p>
+            <h2>Hospitality in every bite.</h2>
+        </div>
+        <p>
+            Banaadir Restaurant is a fictional restaurant created
+            as a website demonstration. This space introduces a
+            restaurant's food, atmosphere and commitment to welcoming
+            its customers.
+        </p>
+    </section>
+    <section class="contact-section" id="contact">
+        <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+        <h2>Let's make your next meal special.</h2>
+        <p>Have a question? Get in touch with us.</p>
+        <a
+            class="primary-button"
+            id="whatsapp-button"
+            href="#contact"
+        >
+            Contact Us on WhatsApp
+        </a>
+        <p class="demo-note">
+            Demo website: WhatsApp contact details have not been configured.
+        </p>
+    </section>
+</main>
+<footer class="footer">
+    <a href="#home" class="logo">BANAADIR<span>.</span></a>
+    <p>Demonstration project · Mogadishu, Somalia</p>
+    <p>&copy; <span id="year"></span> Banaadir Restaurant</p>
+</footer>
+</body>
+</html>
